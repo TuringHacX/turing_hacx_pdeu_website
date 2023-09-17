@@ -84,6 +84,10 @@ section {
   max-width: 500px;
 }
 
+.click-here a {
+  text-decoration: none;
+}
+
 .more-details span {
   font-family: "Fjalla One";
 }
