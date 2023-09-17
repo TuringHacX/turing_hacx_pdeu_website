@@ -62,7 +62,7 @@ section {
 .about-content {
   min-width: 550px;
   max-width: 550px;
-  font-weight: 100;
+  font-weight: 200;
   font-size: 19px;
   font-family: "Poppins";
 }
@@ -76,7 +76,7 @@ section {
 
 .schedule .time {
   font-size: 19px;
-  font-weight: 100;
+  font-weight: 200;
   color: rgb(99, 97, 97);
   text-transform: uppercase;
   font-family: "Poppins";
