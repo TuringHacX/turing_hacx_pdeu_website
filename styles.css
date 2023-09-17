@@ -1,0 +1,237 @@
+@import url("https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body {
+  padding: 0;
+  margin: 0;
+}
+nav {
+  margin: 0;
+  padding: 0;
+  /* padding: 25px 65px; */
+  width: 100%;
+  background-color: rgb(10, 10, 94);
+}
+
+nav .logo {
+    width: fit-content;
+    display: flex;
+    justify-content: flex-start;
+
+}
+.logo img{
+    padding-left: 235px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+section {
+  padding: 30px 20px 50px 50px;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 5em;
+}
+.click-here {
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-family: "Montserrat", "Fjalla", "Poppins";
+  color: #3f5d9a;
+  font-weight: 200;
+  margin-top: 1rem;
+}
+.more-details {
+  font-weight: 200;
+  font-size: 1.5rem;
+  font-family: "Montserrat", "Fjalla", "Poppins";
+}
+
+.title {
+  text-transform: uppercase;
+  font-family: "Fjalla One";
+  font-size: 40px;
+  color: rgb(10, 10, 94);
+}
+
+/* about */
+.about-us-title,
+.timeline-title {
+  text-transform: uppercase;
+  font-size: 25px;
+  font-family: "Fjalla One";
+}
+
+.about-content {
+  min-width: 550px;
+  max-width: 550px;
+  font-weight: 100;
+  font-size: 19px;
+  font-family: "Poppins";
+}
+
+/* timeline */
+.schedule {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 20px;
+}
+
+.schedule .time {
+  font-size: 19px;
+  font-weight: 100;
+  color: rgb(99, 97, 97);
+  text-transform: uppercase;
+  font-family: "Poppins";
+  min-width: 500px;
+  max-width: 500px;
+}
+
+.more-details span {
+  font-family: "Fjalla One";
+}
+
+.more-details button {
+  border: 1px solid black;
+  font-size: 20px;
+  padding: 15px 20px;
+  border-radius: 30px;
+  background-color: transparent;
+  font-family: "Fjalla One";
+  font-weight: 100;
+  cursor: pointer;
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+}
+.footer {
+  background-color: #171b21;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 12vw;
+  text-transform: uppercase;
+  padding: 20px 0;
+}
+
+.footer h3 {
+  font-family: "Fjalla One";
+}
+.footer div {
+  font-family: "Poppins";
+  font-weight: 100;
+  letter-spacing: 1.4px;
+}
+
+.right-image {
+  padding-top: 35px;
+}
+
+.right-image .img1 {
+  padding-bottom: 40px;
+}
+
+
+@media  screen and (max-width : 1198.99px) {
+    .logo img{
+        padding-left: 129px;
+    }
+}
+
+@media  screen and (max-width : 1080.99px) {
+    .logo img{
+        padding-left: 109px;
+    }
+}
+
+@media  screen and (max-width : 1000.99px) {
+    .logo img{
+        padding-left: 79px;
+    }
+}
+
+@media  screen and (max-width : 900.99px) {
+    .logo img{
+        padding-left: 29px;
+    }
+}
+
+
+@media  screen and (max-width : 800.99px) {
+    nav .logo{
+        width: 100%;
+    }
+    .logo img{
+        width: 300px;
+        padding-left: 29px;
+    }
+
+    
+    .right-image .img1, .right-image .img2{
+        width: 100%;
+    }
+
+    .img1 img, .img2 img{
+        width: 150px;
+    }
+
+    .title{
+        font-size: 35px;
+    }
+
+    .about-content{
+        min-width: inherit;
+    }
+
+    .schedule .time{
+        font-size: 20px;
+        min-width: inherit;
+    }
+
+}
+
+@media  screen and (max-width:500px) {
+    .section{
+        padding-left: 20px;
+    }
+    .footer{
+        padding: 20px 50px;
+    }
+    .about-content{
+        font-size: 15px;
+    }
+    .schedule .time{
+        font-size: 15px;
+
+    }
+    .img1 img, .img2 img{
+        width: 100px;
+    }
+
+    .more-details button{
+        font-size: 10px;
+    }
+
+    .about-content{
+        font-size: 15px;
+    }
+
+    .first-section p{
+        font-size: 14px;
+    }
+
+    .second-section p{
+        font-size: 14px;
+    }
+
+
+}
+
+@media screen and (max-width:350px) {
+    .about-content{
+        font-size: 10px;
+    }
+
+    .schedule .time{
+        font-size: 10px;
+    }
+}
